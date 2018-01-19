@@ -35,6 +35,8 @@ class stack {
         }
     }
 
+    int capacity() { return v.capacity(); }
+
    private:
     vector<T> v;
 };
