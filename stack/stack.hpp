@@ -15,7 +15,7 @@ class stack {
 
     T pop() {
         if (empty()) {
-            return T(NULL);
+            throw underflow_error("underflow");
         }
 
         T value = v.back();
