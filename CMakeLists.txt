@@ -4,3 +4,4 @@ PROJECT(DataStructure)
 
 add_subdirectory(stack)
 add_subdirectory(list)
+add_subdirectory(queue)
